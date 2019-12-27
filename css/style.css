@@ -3520,7 +3520,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size:40px;
 }
 .color-white{color:#ffffff}
-
+.insta-hw{width:150px;height: 400px;}
+.bn-index {
+  background: #00000036 !important;
+}
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
