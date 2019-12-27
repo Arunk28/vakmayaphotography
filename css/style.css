@@ -3515,6 +3515,11 @@ h1, h2, h3, h4, h5, h6 {
 .social_widget .list li:hover a {
   color: #fcdc00;
 }
+.font-logo{
+  font-family: 'Great Vibes', cursive;
+  font-size:40px;
+}
+.color-white{color:#ffffff}
 
 /* End Footer Area css
 ============================================================================================ */
