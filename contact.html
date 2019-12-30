@@ -66,18 +66,16 @@
             </div>
         </section>
         <!--================End Home Banner Area =================-->
-        
+        <section class="icon-bar">            
+            <a href="https://wa.me/918760840096?text=i'm%20interested%20in%20your%20photography%20Contact%20me%20further%20approach." class="whatsapp"><i class="fa fa-whatsapp"></i></a>                
+        </section>
         <!--================Contact Area =================-->
         <section class="contact_area p_120">
             <div class="container">
-                <div id="mapBox" class="mapBox" 
-                    data-lat="40.701083" 
-                    data-lon="-74.1522848" 
-                    data-zoom="13" 
-                    data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
-                    data-mlat="40.701083"
-                    data-mlon="-74.1522848">
+                <div id="mapBox" class="mapBox" >
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.144331894941!2d76.98091424557073!3d11.027796001021416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85846428e07d9%3A0x1070f022c72b6257!2sAvarampalayam%2C%20Illango%20Nagar%2C%20Coimbatore%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2ssg!4v1577712352022!5m2!1sen!2ssg" width="1145" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 </div>
+                
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="contact_info">
@@ -120,7 +118,7 @@
                                 <button type="submit" value="submit" class="btn theme_btn button_hover">Send Message</button>
                             </div>
                         </form>-->
-                        <form name="contact" method="POST" data-netlify="true" class="row contact_form" id="contactForm">
+                        <form name="contact" method="POST"  data-netlify-recaptcha="true" data-netlify="true"  class="row contact_form" id="contactForm">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
@@ -135,6 +133,11 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <div data-netlify-recaptcha="true"></div>
                                 </div>
                             </div>
                             <div class="col-md-12 text-right">
@@ -251,7 +254,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/contact.js"></script>
         <!--gmaps Js-->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script> -->
         <script src="js/gmaps.min.js"></script>
         <script src="js/theme.js"></script>       
     </body>
