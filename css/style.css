@@ -3544,9 +3544,41 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   font-size: 20px;
 }
-
+@media only screen and (max-width: 479px){
+  .icon-bar {
+    position: absolute;
+    z-index: 1;
+    top: 95%;
+    -webkit-transform: translateY(-95%);
+    -ms-transform: translateY(-95%);
+    transform: translateY(-95%);
+  }
+}
 .icon-bar a:hover {
   background-color: #000;
+}
+
+[style*="--aspect-ratio"] > :first-child {
+  width: 100%;
+}
+[style*="--aspect-ratio"] > img {  
+  height: auto;
+} 
+@supports (--custom:property) {
+  [style*="--aspect-ratio"] {
+    position: relative;
+  }
+  [style*="--aspect-ratio"]::before {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (var(--aspect-ratio)));
+  }  
+  [style*="--aspect-ratio"] > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }  
 }
 /* End Footer Area css
 ============================================================================================ */
