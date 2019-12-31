@@ -3517,18 +3517,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 .font-logo{
   font-family: 'Great Vibes', cursive;
-  font-size:40px;
+  font-size:35px;
 }
 .color-white{color:#ffffff}
-.insta-hw{width:150px;height: 400px;}
+ .insta-hw{width:150px;height: 400px;} 
 .bn-index {
   background: #00000036 !important;
-}
-.whatsapp{
+} 
+ .whatsapp{
   background: rgb(40, 202, 80);
   color: white;
 }
-.icon-bar {
+.icon-bar-wapp {
   position: fixed;
   top: 70%;
   -webkit-transform: translateY(-70%);
@@ -3536,7 +3536,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-70%);
 }
 
-.icon-bar a {
+.icon-bar-wapp a {
   display: block;
   text-align: center;
   padding: 16px;
@@ -3545,7 +3545,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
 }
 @media only screen and (max-width: 479px){
-  .icon-bar {
+  .icon-bar-wapp {
     position: absolute;
     z-index: 1;
     top: 95%;
@@ -3554,9 +3554,9 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-95%);
   }
 }
-.icon-bar a:hover {
+.icon-bar-wapp a:hover {
   background-color: #000;
-}
+} 
 
 [style*="--aspect-ratio"] > :first-child {
   width: 100%;
@@ -3579,7 +3579,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     height: 100%;
   }  
-}
+} 
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
