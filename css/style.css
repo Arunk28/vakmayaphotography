@@ -625,11 +625,11 @@ button:focus {
 /* Testimonials Area css
 ============================================================================================ */
 .testimonials_area {
-  background: #fcdc00;
+  background: #f2f2f4;
   position: relative;
 }
 
-.testimonials_area .owl-prev, .testimonials_area .owl-next {
+.testimonials_area .owl-prev, .testimoni  als_area .owl-next {
   position: absolute;
   right: 150px;
   background: #fff;
@@ -770,7 +770,7 @@ button:focus {
 }
 
 .service_item:hover {
-  background: #fcdc00;
+  background: #f2f2f4;;
 }
 
 .service_item:hover p {
@@ -3580,6 +3580,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
   }  
 } 
+#demo img{
+  width: 100%; height: auto ;
+}
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
