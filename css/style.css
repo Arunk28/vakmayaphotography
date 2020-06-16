@@ -314,9 +314,6 @@ button:focus {
   height: 100%;
   bottom: 0;
   z-index: -1;
-  background-position: center center;    
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .home_banner_area .banner_inner .banner_content {
@@ -404,6 +401,9 @@ button:focus {
   height: 100%;
   bottom: 0;
   z-index: -1;
+  background-position: center center;    
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .banner_area .banner_inner .banner_content h2 {
