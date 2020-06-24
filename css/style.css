@@ -42,6 +42,7 @@ Table of Content:
 /*Color Variables*/
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700");
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap'); */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .list {
@@ -3586,6 +3587,25 @@ h1, h2, h3, h4, h5, h6 {
 #demo img{
   width: 100%; height: auto ;
 }
+.card{margin-left: 10%;}
+.header_area .navbar{  
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: inherit;
+}
+.widget-wrapper > span {
+  box-shadow: none;
+}
+.margin-bottom-10{
+  margin: 20px ;        
+}
+.align-center{text-align: center;}
+.width-rem{width: 18rem;}
+.article-img{
+  width:25%
+}
+.overflow-hide{overflow: :hidden;}
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
