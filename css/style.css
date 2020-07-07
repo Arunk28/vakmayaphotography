@@ -3605,7 +3605,8 @@ h1, h2, h3, h4, h5, h6 {
 .article-img{
   width:25%
 }
-.overflow-hide{overflow: :hidden;}
+.overflow-hide{overflow: hidden;}
+
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
